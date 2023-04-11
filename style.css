@@ -1,0 +1,154 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.header{
+    display: flex;
+    background-color: #1F2937;
+}
+
+.header_logo{
+    font: 24px sans-serif;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    padding-left: 100px; 
+    padding-top: 12px;
+}
+
+.header_links{
+    display: flex;
+    font: 18px sans-serif;
+    color: #E5E7EB;
+    margin-left: auto;
+    margin-right: 100px;
+}
+
+.link{
+    padding: 12px;
+}
+.awesome{
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    background-color: #1F2937;
+}
+
+.awesome_title{
+    font: 48px sans-serif;
+    color: #F9FAF8;
+}
+.awesome_description{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-right: auto;
+    margin-left: 40px;
+    flex-basis: 50%;
+    font: 18px sans-serif;
+    color: #E5E7EB;
+    gap: 10px;
+}
+
+.awesome_image{
+    display: flex;
+    margin-right: 40px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 50%;
+}
+
+.awesome_button{
+    background-color: #3882F6;
+    color: white;
+    border: 0px;
+    padding: 3px;
+    border-radius: 5px;
+    width: 140px;
+}
+
+.random{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 250px;
+}
+.random_info{
+    display: flex;
+    padding: 20px;
+    font: 36px sans-serif;
+    font-weight: 500;
+    color: #1F2937;
+    background-color: white;
+}
+
+button{
+    align-items: center;
+    justify-content: center;
+    color: #3882F6;
+}
+.random_items{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+}
+
+.item{
+    border: 2px black solid;
+    background-color: lightblue;
+}
+.quote_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    background-color: #E5E7EB;
+}
+
+.quote_text{
+    display: flex;
+    font: 36px Ariel;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote_name{
+    display: flex;
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+.action{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+}
+
+.action_wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.action_button{
+    margin-left: auto;
+    margin-right: 50px;
+    margin-top: 30px;
+    align-self: flex-start;
+}
+.footer{
+    display: flex;
+    align-self: center;
+}
