@@ -11,6 +11,7 @@ body{
 
 .header_logo{
     font: 24px sans-serif;
+    font-weight: bold;
     color: #F9FAF8;
     background-color: #1F2937;
     padding-left: 200px; 
@@ -27,8 +28,8 @@ body{
 }
 
 .item_image{
-    height: 150px;
-    width: 150px;
+    height: 175px;
+    width: 175px;
     border: 3px #3882F6 solid;
     border-radius: 10px;
     overflow:hidden;
@@ -48,7 +49,7 @@ img{
     font: 18px sans-serif;
     color: #E5E7EB;
     margin-left: auto;
-    margin-right: 88px;
+    margin-right: 188px;
 }
 
 .link{
@@ -57,21 +58,24 @@ img{
 
 .awesome{
     display: flex;
-    height: 350px;
+    height: 250px;
     justify-content: center;
     align-items: center;
-    padding: 60px 100px 60px 200px;
+    padding: 120px 200px;
     background-color: #1F2937;
 }
 
 .awesome_title{
     font: 48px sans-serif;
+    font-weight: bolder;
     color: #F9FAF8;
     
 }
 .awesome_description{
     display: flex;
     flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
     flex: 1;
     margin-right: auto;
     flex-basis: 50%;
@@ -88,12 +92,14 @@ img{
     flex-basis: 50%;
 }
 
-.awesome_button{
+button, .awesome_button{
     background-color: #3882F6;
     color: white;
     border: 0px;
-    padding: 3px;
-    border-radius: 5px;
+    padding: 10px;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 16px;
     width: 140px;
 }
 
@@ -126,7 +132,7 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 25px;
 }
 
 .quote_box{
@@ -134,6 +140,7 @@ button{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 40px 225px;
     height: 200px;
     background-color: #E5E7EB;
 }
@@ -143,12 +150,13 @@ button{
     font: 36px Ariel;
     font-style: italic;
     font-weight: lighter;
+    color: #1F2937;
 }
 
 .quote_name{
     display: flex;
     margin-left: auto;
-    margin-right: 30px;
+    margin-right: 64px;
 }
 
 .action{
