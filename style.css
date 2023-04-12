@@ -13,18 +13,23 @@ body{
     font: 24px sans-serif;
     color: #F9FAF8;
     background-color: #1F2937;
-    padding-left: 100px; 
+    padding-left: 200px; 
     padding-top: 12px;
 }
 
 .item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: white;
+    text-align: center;
 }
 
 .item_image{
-    height: 125px;
-    width: 125px;
-    border: 2px black solid;
+    height: 150px;
+    width: 150px;
+    border: 3px #3882F6 solid;
     border-radius: 10px;
     overflow:hidden;
 }
@@ -32,7 +37,6 @@ body{
 
 .item_description{
     width: 125px;
-    text-align: center;
 }
 
 img{
@@ -53,23 +57,23 @@ img{
 
 .awesome{
     display: flex;
-    height: 200px;
+    height: 350px;
     justify-content: center;
     align-items: center;
-    padding: 60px;
+    padding: 60px 100px 60px 200px;
     background-color: #1F2937;
 }
 
 .awesome_title{
     font: 48px sans-serif;
     color: #F9FAF8;
+    
 }
 .awesome_description{
     display: flex;
     flex-direction: column;
     flex: 1;
     margin-right: auto;
-    margin-left: 40px;
     flex-basis: 50%;
     font: 18px sans-serif;
     color: #E5E7EB;
@@ -78,7 +82,6 @@ img{
 
 .awesome_image{
     display: flex;
-    margin-right: 40px;
     height: 100%;
     align-items: center;
     justify-content: center;
@@ -102,10 +105,11 @@ img{
     background-color: white;
     height: 250px;
     padding-bottom: 75px;
+    padding-top: 50px;
 }
 .random_info{
     display: flex;
-    padding: 20px;
+    padding: 40px 0px;
     font: 36px sans-serif;
     font-weight: 500;
     color: #1F2937;
