@@ -110,13 +110,13 @@ button, .awesome_button{
     align-items: center;
     background-color: white;
     height: 250px;
-    padding-bottom: 75px;
+    padding-bottom: 175px;
     padding-top: 50px;
 }
 .random_info{
     display: flex;
     padding: 40px 0px;
-    font: 36px sans-serif;
+    font: 36px roboto;
     font-weight: 500;
     color: #1F2937;
     background-color: white;
@@ -147,7 +147,7 @@ button{
 
 .quote_text{
     display: flex;
-    font: 36px Ariel;
+    font: 36px roboto;
     font-style: italic;
     font-weight: lighter;
     color: #1F2937;
@@ -157,6 +157,8 @@ button{
     display: flex;
     margin-left: auto;
     margin-right: 64px;
+    font: 28px Ariel;
+    font-weight: 900;
 }
 
 .action{
@@ -192,6 +194,7 @@ button{
 .action_text{
     padding-left: 70px;
     color: white;
+    font-family: roboto;
 }
 
 .action_text, h2{
