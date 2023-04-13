@@ -52,6 +52,11 @@ img{
     margin-right: 188px;
 }
 
+.header_links, a{
+    color: #E5E7EB;
+    text-decoration:none;
+}
+
 .link{
     padding: 12px;
 }
@@ -126,6 +131,10 @@ button{
     align-items: center;
     justify-content: center;
     color: #3882F6;
+}
+
+button:hover{
+    background-color: #66a1ff;
 }
 .random_items{
 
